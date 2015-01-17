@@ -26,7 +26,7 @@ function! SyntaxCheckers_lex_flex_GetHighlightRegex(item)
             \ '\m^\(Definition value for\|undefined definition\) \zs{[^}]\+}\ze')
     endif
 
-    return term != '' ? '\V' . term : ''
+    return term != '' ? '\V' . escape(term, '\') : ''
 endfunction
 
 function! SyntaxCheckers_lex_flex_GetLocList() dict
@@ -47,4 +47,4 @@ call g:SyntasticRegistry.CreateAndRegisterChecker({
 let &cpo = s:save_cpo
 unlet s:save_cpo
 
-" vim: set et sts=4 sw=4:
+" vim: set sw=4 sts=4 et fdm=marker:

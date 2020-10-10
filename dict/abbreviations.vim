@@ -17,6 +17,8 @@ iab <buffer> kub Kubernetes
 Abolish -buffer kubernetes Kubernetes
 Abolish -buffer docker Docker
 
+Abolish -buffer t{h,i,n}k think
+
 Abolish -buffer {he,she,there,here,mom,dad,children}s {}'s
 Abolish -buffer {he,she,there,here,mom,dad,children}s {}'s
 Abolish -buffer {he,she,there,here,mom,dad,children}s {}'s

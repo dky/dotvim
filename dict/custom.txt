@@ -1,4 +1,9 @@
 egomaniac
-netbox
 exporter
+netbox
 prometheus
+pods
+packer
+terraform
+kubernetes
+docker

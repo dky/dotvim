@@ -1,9 +1,4 @@
-snippet		img
-abbr			img
-options		head
-	![](${1})
-
-snippet		fm
+snippet		Fm
 abbr			fm
 options		head
 	---
@@ -15,30 +10,23 @@ options		head
 
 	${3}
 
-snippet		hq
-abbr			hquote
-options		head
-	{{< blockquote author="${1}" >}}
-	“${2}”
-	{{< /blockquote >}}
-
-snippet		h1
+snippet		H1
 abbr			h1
 	 # ${1}
 
-snippet		h2
+snippet		H2
 abbr			h2
 	 ## ${1}
 
-snippet		h3
+snippet		H3
 abbr			h3
 	 ### ${1}
 
-snippet		h4
+snippet		H4
 abbr			h4
 	 #### ${1}
 
-snippet		h6
+snippet		H6
 abbr			h6
 	 ###### ${1}
 
@@ -104,6 +92,18 @@ snippet tb
 	 |${1}	|${2}  |
 	 |-------|:----:|
 	 |${3}	|${4}  |
+
+snippet		img
+abbr			img
+options		head
+	![](${1})
+
+snippet		hq
+abbr			hquote
+options		head
+	{{< blockquote author="${1}" >}}
+	“${2}”
+	{{< /blockquote >}}
 
 snippet pqc
 	{{< show "${1}" >}}

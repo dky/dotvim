@@ -1,4 +1,3 @@
-egomaniac
 exporter
 netbox
 prometheus
@@ -7,3 +6,7 @@ packer
 terraform
 kubernetes
 docker
+cluster
+blackbox
+vim
+nvim

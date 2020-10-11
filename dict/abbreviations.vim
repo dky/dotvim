@@ -13,6 +13,7 @@ iab <buffer> t to
 iab <buffer> al alot
 iab <buffer> dk Docker
 iab <buffer> kub Kubernetes
+iab <buffer> prom Prometheus
 
 Abolish -buffer kubernetes Kubernetes
 Abolish -buffer docker Docker

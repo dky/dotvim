@@ -10,3 +10,8 @@ cluster
 blackbox
 vim
 nvim
+deployment
+helm
+repo
+repository
+stateful

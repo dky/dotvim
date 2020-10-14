@@ -10,3 +10,8 @@ cluster
 blackbox
 vim
 nvim
+kubectl
+defined
+apply
+deploy
+yaml

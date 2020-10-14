@@ -16,7 +16,10 @@ iab <buffer> kub Kubernetes
 iab <buffer> prom Prometheus
 
 Abolish -buffer kubernetes Kubernetes
+Abolish -buffer Https https
 Abolish -buffer docker Docker
+Abolish -buffer Stateful stateful
+Abolish -buffer Kubctl kubctl
 
 Abolish -buffer t{h,i,n}k think
 

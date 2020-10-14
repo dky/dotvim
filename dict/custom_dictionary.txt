@@ -1,6 +1,7 @@
 exporter
 netbox
 prometheus
+kubectl
 pods
 packer
 terraform
@@ -10,8 +11,12 @@ cluster
 blackbox
 vim
 nvim
-kubectl
 defined
 apply
 deploy
 yaml
+deployment
+helm
+repo
+repository
+stateful

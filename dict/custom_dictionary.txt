@@ -20,3 +20,7 @@ helm
 repo
 repository
 stateful
+merge
+conflict
+git
+high availability

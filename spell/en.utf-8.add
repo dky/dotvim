@@ -97,3 +97,5 @@ loopback
 udp
 nameserver
 ACLs
+localhost
+http

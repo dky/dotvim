@@ -99,3 +99,7 @@ nameserver
 ACLs
 localhost
 http
+Vue
+Postgres
+github
+auth

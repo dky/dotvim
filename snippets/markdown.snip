@@ -1,3 +1,13 @@
+snippet		Dd
+abbr			Date
+options		head
+	## `strftime("%m-%d-%y")`
+	${1}
+
+snippet Cb
+abbr Checkbox
+	- [${1}] ${2}
+
 snippet		Fm
 abbr			fm
 options		head
@@ -10,25 +20,30 @@ options		head
 
 	${3}
 
+snippet Img
+abbr Img
+	![${1}](./${2})
+	${3}
+
 snippet		H1
 abbr			h1
-	 # ${1}
+ # ${1}
 
 snippet		H2
 abbr			h2
-	 ## ${1}
+ ## ${1}
 
 snippet		H3
 abbr			h3
-	 ### ${1}
+ ### ${1}
 
 snippet		H4
 abbr			h4
-	 #### ${1}
+ #### ${1}
 
 snippet		H6
 abbr			h6
-	 ###### ${1}
+ ###### ${1}
 
 snippet		g3
 abbr			g3
@@ -48,7 +63,7 @@ abbr			hlink
 
 snippet		hle
 abbr			hlink
-	 [${1}](${2})
+	[${1}](${2})
 
 snippet		bigo
 abbr			bigo

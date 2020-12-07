@@ -1,3 +1,4 @@
+# Dictionaries
 snippet samplenestdic
 alias nestdic
 abbr Sample nested dictionary
@@ -23,24 +24,11 @@ abbr Sample dictionary
 	}
 	${0}
 
-snippet samplelist
-alias smplist slist
-abbr Sample list
-	List = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-	${0}
-
-snippet et
-	${1} = (${2})
-
-snippet el
-	${1} = [${2}]
-
-snippet ed
-abbr dict = {} - Empty dictionary
+snippet nd
+abbr dict = {} - New dictionary
 	${1} = {}
 	${0}
 
-# Dictionaries
 snippet di
 abbr dict_name["key"] = value
 	${1}["${2}"] = ${3}
@@ -48,12 +36,41 @@ abbr dict_name["key"] = value
 snippet dg
 	${1}.get(${2}, 0)
 
+snippet dk
+abbr dict[key]
+	dict[key]${0}
+
 snippet forkvindic
 alias forkv
 abbr for key, value in dictionary.items()
 options head
 	for key, value in ${1}.items():
 		${2}
+
+# Lists
+snippet duplist
+alias dupe list
+abbr Duplicate list
+	List = [1, 1, 2, 2, 3, 3, 3]
+	${0}
+
+snippet samplelist
+alias smplist slist
+abbr Sample list
+	List = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+	${0}
+
+snippet nl
+abbr New list
+	${1} = [${2}]
+
+# List functions
+snippet rev
+	reverse(${1}):
+
+# Tuples
+snippet et
+	${1} = (${2})
 
 snippet wh
 alias while
@@ -125,10 +142,6 @@ snippet sacs
 
 snippet _name
 	__name__
-
-# List functions
-snippet rev
-	reverse(${1}):
 
 # Strings
 snippet pss

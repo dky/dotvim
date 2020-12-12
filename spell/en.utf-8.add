@@ -77,6 +77,14 @@ Kubernetes
 kafka
 YAML
 Kubernetes
+<<<<<<< HEAD
+CICD
+Fastlane
+fastlane
+Backend
+App
+app
+Karan
 Codebreakers
 API
 OOP
@@ -111,3 +119,4 @@ gh
 FastAPI
 Refactor
 textureless
+uvicorn

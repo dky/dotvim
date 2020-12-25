@@ -1,1 +1,4 @@
-let b:surround_{char2nr('`')} = "```\r```"
+set noautoindent
+set nosmartindent
+set nocindent
+set indentexpr=

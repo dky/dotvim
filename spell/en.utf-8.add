@@ -123,3 +123,4 @@ uvicorn
 symlinks
 dotfiles
 Coc
+axios

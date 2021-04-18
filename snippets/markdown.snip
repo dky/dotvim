@@ -1,15 +1,15 @@
-snippet		Dd
+snippet		Dd,dd
 abbr			Date
 options		head
 	## `strftime("%m-%d-%y")`
 	${1}
 
-snippet Cb
+snippet Cb,cb
 abbr Checkbox
 	- [${1}] ${2}
 
-snippet		Fm
-abbr			fm
+snippet		Fm,fm
+abbr			Front Matter
 options		head
 	---
 	title: ${1}
@@ -20,32 +20,27 @@ options		head
 
 	${3}
 
-snippet Img
-abbr Img
-	![${1}](./${2})
-	${3}
-
-snippet		H1
+snippet		H1,h1
 abbr			h1
  # ${1}
 
-snippet		H2
+snippet		H2,h2
 abbr			h2
  ## ${1}
 
-snippet		H3
+snippet		H3,h3
 abbr			h3
  ### ${1}
 
-snippet		H4
+snippet		H4,h4
 abbr			h4
  #### ${1}
 
-snippet		H5
+snippet		H5,h5
 abbr			h5
  ##### ${1}
 
-snippet		H6
+snippet		H6,h6
 abbr			h6
  ###### ${1}
 
@@ -65,11 +60,7 @@ snippet		hli
 abbr			hlink
 	 [${1}]({{< ref "${2}.md" >}})
 
-snippet		hle
-abbr			hlink
-	[${1}](${2})
-
-snippet		Hle
+snippet		Hle,hle
 abbr			hlink
 	[${1}](${2})
 
@@ -77,27 +68,27 @@ snippet		bigo
 abbr			bigo
 	 $\mathcal{${1}}(${2})$
 
-snippet Pc
+snippet pc,Pc
  \`\`\`python
  ${0}
  \`\`\`
 
-snippet Jc
+snippet jc,Jc
  \`\`\`javascript
  ${0}
  \`\`\`
 
-snippet Bc
+snippet bc,Bc
  \`\`\`bash
  ${0}
  \`\`\`
 
-snippet Goc
+snippet goc,Goc
  \`\`\`go
  ${0}
  \`\`\`
 
-snippet Gc
+snippet gc,Gc
  \`\`\`
  ${0}
  \`\`\`
@@ -111,46 +102,13 @@ snippet em
 snippet st
 	~~${1}~~
 
-snippet tb
+snippet tb,Tb
+abbr Markdown Table
 	 |${1}	|${2}  |
 	 |-------|:----:|
 	 |${3}	|${4}  |
 
-snippet		img
-abbr			img
-options		head
-	![](${1})
-
-snippet		hq
-abbr			hquote
-options		head
-	{{< blockquote author="${1}" >}}
-	“${2}”
-	{{< /blockquote >}}
-
-snippet pqc
-	{{< show "${1}" >}}
-	<div id="${2}" class="code" style="display: none">
-
-	{{< highlight Python "linenos=table" >}}
+snippet Img,img
+abbr Img
+	![${1}](./${2})
 	${3}
-	{{< / highlight >}}
-
-	</div>
-
-snippet pq
-	{{< show "${1}" >}}
-	<div id="${2}" style="display: none">
-	<p class="answer">
-
-	${3}
-
-	</p>
-	</div>
-
-snippet hpc
-	<div class="code">
-	{{< highlight Python "linenos=table">}}
-	${1}
-	{{< / highlight >}}
-	</div>

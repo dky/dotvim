@@ -8,14 +8,14 @@ snippet Cb,cb
 abbr Checkbox
 	- [${1}] ${2}
 
-snippet		Fm,fm
+snippet		Fm
 abbr			Front Matter
 options		head
 	---
 	title: ${1}
 	date: "`strftime("%Y-%m-%d")`"
 	tags: ["${2}"]
-	draft: false
+	draft: true
 	---
 
 	${3}
@@ -112,3 +112,6 @@ snippet Img,img
 abbr Img
 	![${1}](./${2})
 	${3}
+
+snippet Pw, pw
+	$${1}^{${2}}$

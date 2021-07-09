@@ -1,15 +1,10 @@
-snippet		@dpr
-abbr			Dan Russell's gh handle
-options		head
- @DanielRussell ${1}
-
-snippet		Dd,dd
+snippet		Dd
 abbr			Date
 options		head
 	## `strftime("%m-%d-%y")`
 	${1}
 
-snippet Cb,cb
+snippet Cb
 abbr Checkbox
 	- [${1}] ${2}
 
@@ -25,27 +20,27 @@ options		head
 
 	${3}
 
-snippet		H1,h1
+snippet		H1
 abbr			h1
  # ${1}
 
-snippet		H2,h2
+snippet		H2
 abbr			h2
  ## ${1}
 
-snippet		H3,h3
+snippet		H3
 abbr			h3
  ### ${1}
 
-snippet		H4,h4
+snippet		H4
 abbr			h4
  #### ${1}
 
-snippet		H5,h5
+snippet		H5
 abbr			h5
  ##### ${1}
 
-snippet		H6,h6
+snippet		H6
 abbr			h6
  ###### ${1}
 
@@ -65,7 +60,7 @@ snippet		hli
 abbr			hlink
 	 [${1}]({{< ref "${2}.md" >}})
 
-snippet		Hle,hle
+snippet		hle
 abbr			hlink
 	[${1}](${2})
 
@@ -73,22 +68,22 @@ snippet		bigo
 abbr			bigo
 	 $\mathcal{${1}}(${2})$
 
-snippet pc,Pc
+snippet Pc
  \`\`\`python
  ${0}
  \`\`\`
 
-snippet jc,Jc
+snippet Jc
  \`\`\`javascript
  ${0}
  \`\`\`
 
-snippet bc,Bc
+snippet Bc
  \`\`\`bash
  ${0}
  \`\`\`
 
-snippet goc,Goc
+snippet Goc
  \`\`\`go
  ${0}
  \`\`\`
@@ -107,16 +102,16 @@ snippet em
 snippet st
 	~~${1}~~
 
-snippet tb,Tb
+snippet Tb
 abbr Markdown Table
 	 |${1}	|${2}  |
 	 |-------|:----:|
 	 |${3}	|${4}  |
 
-snippet Img,img
+snippet img
 abbr Img
 	![${1}](./${2})
 	${3}
 
-snippet Pw, pw
+snippet pw
 	$${1}^{${2}}$

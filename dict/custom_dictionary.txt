@@ -6,6 +6,7 @@ pods
 packer
 terraform
 kubernetes
+Kubernetes
 docker
 blackbox
 vim

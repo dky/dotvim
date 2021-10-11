@@ -1,0 +1,54 @@
+exporter
+netbox
+prometheus
+kubectl
+pods
+packer
+terraform
+kubernetes
+docker
+blackbox
+vim
+nvim
+defined
+yaml
+helm
+repo
+stateful
+git
+python
+Golang
+Hashicorp
+learning more
+east-west traffic
+north-south traffic
+load balancer
+service to service
+Nginx
+microservices
+centralize
+service mesh
+hashicorp
+capabilities
+envoy
+screencast
+monolith
+replicated
+replication
+among
+Dnsmasq
+loopback
+nameserver
+sqlalchemy
+fastapi
+linked-list
+array
+binary search
+algorithm
+algorithm's
+data-structure
+data-structures
+bounding
+best case
+worse case
+average case

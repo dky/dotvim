@@ -1,5 +1,3 @@
-DotVim files
-============
-```
+# DotVim files
+
 Usage: clone to ~/.vim
-```

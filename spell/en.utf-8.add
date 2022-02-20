@@ -195,7 +195,6 @@ IAM
 dynamodb
 AWSKMS
 elasticsearch
-DanielRussell
 cgroups
 systemd
 SysV
